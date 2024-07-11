@@ -1,0 +1,7 @@
+<h1>Need Music ? </h1>
+
+<p>Search your Favorite Music on Spotify {{ searchKey }} </p>
+<form action="">
+    <input type="text" name="search" [(ngModel)]="searchKey"
+    placeholder="Search " (keyup)="searchMusic()">
+</form>
